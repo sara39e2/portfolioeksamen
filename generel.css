@@ -233,10 +233,33 @@ footer {
     display: grid;
     justify-items: end;
     cursor: pointer;
-    width: 100%;
   }
 
   .main-menu.shown li {
     text-align: end;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  /* Rotater første bar */
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+
+  /* Fadeout anden bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  /* Rotater sidste bar */
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
   }
 }
