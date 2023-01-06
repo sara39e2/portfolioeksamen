@@ -1,19 +1,23 @@
-const menu = document.querySelector(".menu");
-const menuItems = document.querySelectorAll(".menuItem");
-const hamburger = document.querySelector(".hamburger");
-const closeIcon = document.querySelector(".closeIcon");
-const menuIcon = document.querySelector(".menuIcon");
+window.addEventListener("load", sidenVises);
+let btn;
+let menu;
 
-function toggleMenu() {
-  if (menu.classList.contains("showMenu")) {
-    menu.classList.remove("showMenu");
-    closeIcon.style.display = "none";
-    menuIcon.style.display = "block";
-  } else {
-    menu.classList.add("showMenu");
-    closeIcon.style.display = "block";
-    menuIcon.style.display = "none";
-  }
+function sidenVises() {
+  btn = document.querySelector("#container");
+  menu = document.querySelector(".main-menu");
+
+  btn.addEventListener("click", toggleMenu);
 }
 
-hamburger.addEventListener("click", toggleMenu);
+function toggleMenu() {
+  menu.classList.toggle("shown");
+  const menuShown = menu.classList.contains("shown");
+
+  btn.classList.toggle("change");
+
+  if (menuShown) {
+    console.log(menuShown);
+  } else {
+    console.log(menuShown);
+  }
+}
