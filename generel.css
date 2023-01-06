@@ -36,6 +36,10 @@ body {
 
 /*************** header *********************/
 
+.kryds {
+  display: inline;
+  margin-left: 100px;
+}
 header {
   display: flex;
   justify-content: space-between;
