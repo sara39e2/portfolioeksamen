@@ -1,0 +1,242 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*************** img *********************/
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/*************** body *********************/
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Italiana", serif;
+  background-color: #e3e3e3;
+}
+.forside {
+  background: url(img/baggrund.webp);
+  background-size: cover;
+}
+.cv_baggrund {
+  background: url(img/cv.png);
+  background-size: cover;
+  padding-top: 15px;
+}
+.cv_overskrift {
+  padding-top: 3rem;
+}
+
+/*************** header *********************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0.5rem;
+  gap: 30px;
+  overflow-x: auto;
+  float: left;
+  padding-right: 7rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 90px;
+  margin-top: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #7f95d1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  box-shadow: inset 0 0 0 0 #3c2415;
+  color: #7f95d1;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  letter-spacing: 0.1rem;
+}
+
+a:hover {
+  box-shadow: inset 100px 0 0 0 #3c2415;
+}
+
+.logo img {
+  max-width: 80px;
+}
+
+.menu {
+  padding-right: 20px;
+}
+
+.main-menu a {
+  color: black;
+}
+
+.active {
+  background-color: white;
+}
+/*************** main *********************/
+
+main {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  color: #3c2415;
+  width: 100%;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 100;
+  color: #3c2415;
+}
+.underoverskrift {
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 200;
+  color: #3c2415;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 70;
+  letter-spacing: 0.0555556rem;
+  padding-bottom: 10px;
+  line-height: 35px;
+}
+
+.billede {
+  padding-inline: 8px;
+  padding-top: 0.5rem;
+}
+
+.typing {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-effect {
+  width: 25ch;
+  animation: typing 2s steps(22), effect 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Italiana", serif;
+  font-size: 3em;
+}
+.portfolio {
+  font-size: 6rem;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes effect {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/*************** footer *********************/
+
+footer {
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+.footer_forside {
+  padding-top: 28rem;
+}
+
+/************ MENU ***********************************************/
+
+/* header */
+.banner {
+  padding: 2rem;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 40px;
+}
+
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+/* burgermenu */
+#container {
+  background: transparent;
+  border: none;
+  display: none;
+  text-align: right;
+}
+
+@media (max-width: 838px) {
+  #container {
+    display: block;
+  }
+
+  .main-menu.shown {
+    display: contents;
+  }
+
+  .main-menu ul {
+    display: none;
+  }
+
+  .main-menu.shown ul {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column;
+    flex-basis: 100%;
+  }
+
+  #container {
+    display: grid;
+    justify-items: end;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .main-menu.shown li {
+    text-align: end;
+  }
+}
+
+/************* Java ************/

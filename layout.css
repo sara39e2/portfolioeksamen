@@ -1,0 +1,78 @@
+/******** Om mig *********/
+
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .text_container {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .text_container {
+    padding-inline: 80px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 80px;
+    padding-bottom: 200px;
+  }
+}
+@media (min-width: 800px) {
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-inline: 80px;
+    padding-bottom: 200px;
+    gap: 20px;
+  }
+  .text_container {
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+}
+
+/********** projekter siden**********/
+@media (min-width: 800px) {
+  .grid_web1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 800px) {
+  .grid_web2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 800px) {
+  .grid_web3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 800px) {
+  .grid_webrow {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 40px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 800px) {
+  .grid1 {
+    display: grid;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .grid1 {
+    display: grid;
+    margin-top: 30px;
+  }
+}
