@@ -10,6 +10,10 @@
   }
 }
 @media (max-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   .text_container {
     padding-inline: 80px;
     padding-bottom: 20px;
