@@ -18,7 +18,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: "Italiana", serif;
+  font-family: "Arimo", sans-serif;
   background-color: #e3e3e3;
 }
 .forside {
@@ -153,7 +153,7 @@ p {
   animation: typing 2s steps(22), effect 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  font-family: "Italiana", serif;
+  font-family: "Arimo", sans-serif;
   font-size: 3em;
 }
 .portfolio {
