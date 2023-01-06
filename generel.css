@@ -205,7 +205,7 @@ footer {
   display: none;
   text-align: right;
 }
-
+/********
 @media (max-width: 838px) {
   #container {
     display: block;
@@ -238,5 +238,70 @@ footer {
     text-align: end;
   }
 }
-
+*******/
 /************* Java ************/
+.banner {
+  padding: 2rem;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 40px;
+}
+
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+/* burgermenu */
+#container {
+  background: transparent;
+  border: none;
+  display: none;
+  text-align: right;
+}
+
+@media (max-width: 838px) {
+  #container {
+    display: block;
+  }
+
+  .main-menu.shown {
+    display: contents;
+  }
+
+  .main-menu ul {
+    display: none;
+  }
+
+  .main-menu.shown ul {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column;
+    flex-basis: 100%;
+  }
+
+  #container {
+    display: grid;
+    justify-items: end;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .main-menu.shown li {
+    text-align: end;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
