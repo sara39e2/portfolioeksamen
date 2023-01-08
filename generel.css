@@ -96,6 +96,9 @@ a:hover {
 .active {
   background-color: white;
 }
+.link_knap {
+  font-size: large;
+}
 /*************** main *********************/
 
 main {
