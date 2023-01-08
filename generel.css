@@ -136,6 +136,7 @@ p {
   letter-spacing: 0.0555556rem;
   padding-bottom: 10px;
   line-height: 35px;
+  text-align: start;
 }
 
 .billede {
