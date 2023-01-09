@@ -77,6 +77,8 @@
 @media (min-width: 800px) {
   .grid_process {
     display: grid;
-    padding: 1rem;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 20px;
   }
 }
