@@ -273,12 +273,16 @@ footer {
 @media only screen and (max-width: 480px) {
   h1 {
     font-size: 36px;
-    text-align: left;
-    margin-left: 30px;
+    text-align: center;
   }
   footer h3 {
     font-size: 20px;
     margin-left: 30px;
+  }
+  .grid_process {
+    padding: 20px;
+  }
+  .grid_1-1 {
   }
 }
 @media only screen and (max-width: 480px) {
