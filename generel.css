@@ -144,6 +144,9 @@ p {
 .portfolio {
   font-size: 6rem;
 }
+.mellemrum {
+  height: 50px;
+}
 
 @keyframes typing {
   from {
@@ -252,6 +255,11 @@ footer {
   /************* mobile ************/
 }
 @media only screen and (max-width: 480px) {
+  img {
+    padding: 10px;
+    padding-top: 30px;
+  }
+
   h1 {
     font-size: 33px;
     text-align: center;
@@ -274,6 +282,7 @@ footer {
     font-size: 10px;
     line-height: 20px;
   }
+
   .grid_process {
     padding: 20px;
   }
@@ -291,6 +300,9 @@ footer {
     background-size: cover;
     padding-top: 15px;
     padding: 10px;
+  }
+  .link_knap {
+    font-size: small;
   }
   .footer_forside {
     padding-top: 24rem;
