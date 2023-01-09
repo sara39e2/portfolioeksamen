@@ -284,6 +284,7 @@ footer {
   }
   .cv_overskrift {
     padding-top: 1rem;
+    text-align: center;
   }
   .cv_baggrund {
     background: url(img/cv.png);
