@@ -4,14 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 /*************** img *********************/
-
 img {
   width: 100%;
   display: block;
 }
-
 /*************** body *********************/
 
 body {
@@ -33,7 +30,6 @@ body {
 .cv_overskrift {
   padding-top: 3rem;
 }
-
 /*************** header *********************/
 
 .kryds {
@@ -57,7 +53,6 @@ nav {
   float: left;
   padding-right: 7rem;
 }
-
 ul {
   display: flex;
   flex-direction: row;
@@ -68,7 +63,6 @@ ul {
   text-transform: uppercase;
   color: #7a503d;
 }
-
 a {
   text-decoration: none;
   color: black;
@@ -76,23 +70,18 @@ a {
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   letter-spacing: 0.1rem;
 }
-
 a:hover {
   box-shadow: inset 100px 0 0 0 #7a503d;
 }
-
 .logo img {
   max-width: 50px;
 }
-
 .menu {
   padding-right: 20px;
 }
-
 .main-menu a {
   color: black;
 }
-
 .active {
   background-color: white;
 }
@@ -105,7 +94,6 @@ main {
   max-width: 1200px;
   margin-inline: auto;
 }
-
 h1 {
   font-size: 60px;
   font-weight: 200;
@@ -114,22 +102,16 @@ h1 {
   color: #7a503d;
   width: 100%;
 }
-
 h2 {
   font-size: 30px;
   font-weight: 200;
   color: #7a503d;
 }
-.underoverskrift {
-  text-align: center;
-}
-
 h3 {
   font-size: 25px;
   font-weight: 200;
   color: #7a503d;
 }
-
 p {
   font-size: 20px;
   font-weight: 70;
@@ -138,19 +120,19 @@ p {
   line-height: 35px;
   text-align: start;
 }
-
+.underoverskrift {
+  text-align: center;
+}
 .billede {
   padding-inline: 8px;
   padding-top: 0.5rem;
 }
-
 .typing {
   height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .typing-effect {
   width: 25ch;
   animation: typing 2s steps(22), effect 0.5s step-end infinite alternate;
@@ -186,7 +168,6 @@ footer {
 .footer_forside {
   padding-top: 31rem;
 }
-
 /************ MENU ***********************************************/
 
 /* header */
@@ -200,22 +181,20 @@ footer {
   align-items: center;
   gap: 20px 40px;
 }
-
 .main-menu ul {
   list-style: none;
   padding: 0;
   display: flex;
   gap: 1rem;
 }
+/*********** burgermenu *********/
 
-/* burgermenu */
 #container {
   background: transparent;
   border: none;
   display: none;
   text-align: right;
 }
-
 @media (max-width: 800px) {
   #container {
     display: block;
@@ -256,7 +235,7 @@ footer {
     transition: 0.4s;
   }
 
-  /* Rotater første bar */
+  /* Roter første bar */
   .change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
   }
@@ -266,7 +245,7 @@ footer {
     opacity: 0;
   }
 
-  /* Rotater sidste bar */
+  /* Roter sidste bar */
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
@@ -297,7 +276,6 @@ footer {
   .grid_process {
     padding: 20px;
   }
-
   .text_container {
     padding-inline: 10px;
     padding-bottom: 20px;
