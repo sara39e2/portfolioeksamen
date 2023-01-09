@@ -181,6 +181,7 @@ footer {
   padding: 30px;
   font-size: 20px;
   text-align: center;
+  min-height: 10%;
 }
 .footer_forside {
   padding-top: 31rem;
@@ -269,6 +270,7 @@ footer {
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
+  /************* mobile ************/
 }
 @media only screen and (max-width: 480px) {
   h1 {
@@ -282,7 +284,12 @@ footer {
     font-size: 20px;
     margin-left: 30px;
   }
-
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
   p {
     font-size: 10px;
     line-height: 20px;
@@ -299,8 +306,10 @@ footer {
   .cv_overskrift {
     padding-top: 1rem;
   }
-}
-
-footer {
-  min-height: 10%;
+  .cv_baggrund {
+    background: url(img/cv.png);
+    background-size: cover;
+    padding-top: 15px;
+    padding: 10px;
+  }
 }
