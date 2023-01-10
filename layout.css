@@ -19,8 +19,8 @@
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-inline: 50px;
-    padding-bottom: 100px;
+    padding-inline: 80px;
+    padding-bottom: 200px;
   }
 }
 @media (min-width: 800px) {
