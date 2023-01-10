@@ -261,7 +261,7 @@ footer {
   }
 
   h1 {
-    font-size: 33px;
+    font-size: 27px;
     text-align: center;
     width: 50%;
   }
@@ -305,6 +305,6 @@ footer {
     font-size: small;
   }
   .footer_forside {
-    padding-top: 24rem;
+    padding-top: 22rem;
   }
 }
